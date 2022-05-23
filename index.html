@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <input type="checkbox" class="checkbox" id="btnMenu">
+      <label for="btnMenu" class="btnCheckbox">
+        <i class='bx bx-menu'></i>
+      </label>
+  
+      <nav class="nav-menu">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Soy <span>Leonardo Temporal</span></h1>
+          <p>Creo, diseño y desarrollo para darle el valor a tu producto.</p>
+        </div>
+        <div class="hero-image">
+          <img src="assets\img\175110445_2356713451138765_6345949921320983734_n.jpg" alt="dev">
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container__about">
+        <h2 class="title">Acerca de mí</h2>
+        <div class="texto">
+           <p>Soy un estudiante de Academlo, en el programa de Programacion Web Full Stack. Me gusta aprender y seguir progresando. Me siento totalmente motivado para seguir aprendiendo!</p>
+           <h3>Habilidades</h3>
+           
+            <li>Proactivo</li>
+            <li>Trabajo en equipo</li>
+            <li>Autodidacta</li>
+            <li>Muchas ganas de aprender!</li>
+
+        </div>
+
+        <div class="btn-download">
+          <button class="btn-cv"><i class='bx bx-down-arrow-alt' ></i> Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="studies">
+      <div class="container__studies">
+        <h2 class="title">Estudios</h2>
+      
+      <div class="texto">
+        <h3>Academlo</h3>
+        <img src="assets/img/logo_academlo.png" alt="LogoAc">
+        <p>2022-2023
+          Programa full stack
+        </p>
+      </div>
+      </div>
+      
+    </section>
+
+    <section class="proyects">
+      <div class="container__proyects">
+        <h2 class="title">Mis proyectos</h2>
+
+        <div class="texto">
+
+        <a class="proyect__link" href="https://hellish-shop-53247d.netlify.app/" target="_blank"><h3>Hellish shop</h3></a>
+        <p>Una tienda en linea en desarollo</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex__form">
+       <form class="form" action="https://formspree.io/f/mknyynjk"
+       method="POST">
+      <div class="form__container">
+        <h2 class="form__title">Contactame</h2>
+        <input type="text" class="form__input" placeholder="Nombre:" name="name">
+        <input type="email" class="form__input" placeholder="Email:" name="email">
+       <textarea class="form__input form__input--message" placeholder="Mensaje:" name="message"></textarea>
+
+        <input type="submit" value="Enviar" class="form__cta">
+    </section>
+   
+      </div>
+
+    </form>
+  </main>
+  
+</body>
+</html>
